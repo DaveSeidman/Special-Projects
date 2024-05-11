@@ -18,6 +18,7 @@ function App() {
   return (
     <div className={`app`} >
       <Scene></Scene>
+
     </div>
   );
 }
