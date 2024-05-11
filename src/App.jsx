@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import './index.scss';
 import Scene from './components/scene';
+import logo from './assets/images/logo.png';
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
   return (
     <div className={`app`} >
       <Scene></Scene>
-
+      <img className="logo" src={logo} />
     </div>
   );
 }
